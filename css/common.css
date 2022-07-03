@@ -49,6 +49,7 @@ div.mobile-group{
     height:100%;
     display:flex;
     align-items: center;
+    display:none;
 }
 nav{
     width:30px;
@@ -77,6 +78,82 @@ button.mobile-bt{
     color:white;
 }
 
+div.mobile-gnb{
+    position:fixed;
+    width:95%;
+    height:100%;
+    left:0;
+    top:0;
+    background-color:white;
+    box-shadow:3px 0 6px #aaa;
+}
+button.mobile-close{
+    position:absolute;
+    right:20px;
+    top:20px;
+    background-color:transparent;
+    border:none;
+    color:#666666;
+}
+h2.gnb-logo{
+    width:150px;
+    margin:auto;
+    margin-top:20px;
+}
+h2.gnb-logo img{
+    width:100%;
+}
+div.top-gnb{
+    width:60%;
+    margin:auto;
+    margin-top:10px;
+    display:flex;
+    justify-content: space-around;
+}
+ul.m-gnb-list{
+    width:90%;
+    margin:auto;
+    height:auto;
+    list-style:none;
+    padding:0;
+    margin-top:20px;
+}
+ul.m-gnb-list>li{
+    background-color:#3E853A;
+    margin-bottom:5px;
+}
+ul.m-gnb-list>li>a{
+    display:flex;
+    height:40px;
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+    padding:0 10px;
+}
+div.gnb-thum{
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+    margin-top:20px;
+    flex-wrap:wrap;
+}
+div.gnb-thum div{
+    width:40%;
+}
+div.gnb-thum div img{
+    width:100%;
+}
+div.gnb-thum h3{
+    text-align:center;
+    font-size:14px;
+}
+div.gnb-banner{
+    width:90%;
+    margin:20px auto;
+}
+div.gnb-banner img{
+    width:100%;
+}
 
 @media screen and (min-width:800px){
     div.mobile-group{
