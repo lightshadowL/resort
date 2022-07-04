@@ -22,15 +22,17 @@ img{
 header{
     width:100%;
     height:100px;
-    border:1px solid black;
+    /* border:1px solid black; */
     position:absolute;
     z-index:99999;
 }
 #contents{
     width:100%;
     height:1000px;
-    border:1px solid black;
+    /* border:1px solid black; */
     margin:auto;
+    position:relative; /*수정*/
+    background-color:#F2EEE3
 }
 footer{
     width:100%;
@@ -49,12 +51,12 @@ div.mobile-group{
     height:100%;
     display:flex;
     align-items: center;
-    display:none;
+    
 }
 nav{
     width:30px;
     height:30px;
-    background-color:rgba(0,0,0,1);
+    background-color:rgba(0,0,0,0.7);
     margin-left:10px;
     margin-top:20px;
     position:absolute;
@@ -65,7 +67,7 @@ h1{
     width:100px;
     height:auto;
     margin:auto;
-    background-color:black;
+    /* background-color:black; */
 }
 h1 img{
     width:100%;
@@ -86,6 +88,7 @@ div.mobile-gnb{
     top:0;
     background-color:white;
     box-shadow:3px 0 6px #aaa;
+    display:none;
 }
 button.mobile-close{
     position:absolute;
@@ -154,6 +157,79 @@ div.gnb-banner{
 div.gnb-banner img{
     width:100%;
 }
+
+/* 콘텐츠 내용 작성 */
+div.slide-wrap{
+    width:100%;
+    position:relative;
+}
+div.slide-wrap img{
+    width:100%;
+}
+
+div.reserve-wrap{
+    width:85%;
+    /* border:2px solid #ddd; */
+    position:relative;
+    margin:auto;
+}
+div.reserve-group{
+    width:100%;
+    background-color:white;
+    display:flex;
+    flex-wrap:wrap;
+    box-shadow:0 5px 6px #ddd;
+}
+div.reserve-group>div{
+    width:50%;
+    margin:5px 0;
+    border-right:2px solid #ddd;
+    padding:5px 10px;
+    font-size:15px;
+}
+div.reserve-group>div:nth-of-type(even){
+    border:none;
+}
+hr{
+    width:100%;
+    height:2px;
+    border:none;
+    background-color:#ddd;
+}
+div.direct-r{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:1.2em !important;
+    font-weight:bold;
+}
+span.reserve-title{
+    display:block;
+    color: rgb(144, 12, 93);
+    font-weight:bold;
+}
+div.reserve-group select{
+    border:none;
+}
+
+button.reserve-bt{
+    width:100%;
+    height:auto;
+    background-color:rgb(144,12,93);
+    font-size:2em;
+    color:white;
+    border:none;
+    border-radius:10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:20px;
+}
+button.reserve-bt img{
+    width:40px;
+    vertical-align: middle;
+}
+
 
 @media screen and (min-width:800px){
     div.mobile-group{
