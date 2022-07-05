@@ -28,11 +28,13 @@ header{
 }
 #contents{
     width:100%;
-    height:1000px;
+    height:auto;
     /* border:1px solid black; */
     margin:auto;
     position:relative; /*수정*/
-    background-color:#F2EEE3
+    background-color:#F2EEE3;
+    display:flex;
+    flex-direction: column;
 }
 footer{
     width:100%;
@@ -51,7 +53,10 @@ div.mobile-group{
     height:100%;
     display:flex;
     align-items: center;
+<<<<<<< HEAD
     
+=======
+>>>>>>> b78a1537a9d3d921214ad4a78213b09700d64343
 }
 nav{
     width:30px;
@@ -230,7 +235,69 @@ button.reserve-bt img{
     vertical-align: middle;
 }
 
+/* 이벤트 박스 */
+h2.event-title{
+    text-align:center;
+    width:100%;
+    font-size:20px;
+    margin:50px 0;
+}
+div.event-box{
+    width:90%;
+    background-color:white;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    padding:10px;
+    margin:50px auto;
+}
+div.event-img{
+    width:100%;
+}
+div.event-img img{
+    width:100%;
+}
+div.event-subtitle{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:20px 0;
+    font-size:1.2em;
+    font-weight:bold;
+}
+div.event-subtitle span:first-child{
+    color:goldenrod;
+}
+div.event-subtitle span:last-child{
+    color:darkgreen;
+}
+div.event-p {
+    width:90%;
+    display:flex;
+    flex-direction:column;
+    border:1px solid #eee;
+    padding:20px 0;
+}
+div.event-p span:first-child{
+    padding-left:40px;
+    color:rgb(144,12,93);
 
+} 
+div.event-p span:nth-child(2){
+    padding-left:60px;
+    color:darkgreen;
+}
+div.event-p span:last-child{
+    padding-left:80px;
+}
+div.event-subtitle span.weekdays{
+    color:#AE1BA4;
+}
+div.event-subtitle span.ski{
+    color:#D86914;
+}
 @media screen and (min-width:800px){
     div.mobile-group{
         display:none;
