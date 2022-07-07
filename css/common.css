@@ -372,4 +372,30 @@ div.event-subtitle span.ski{
     div.bottom-gnb-list a{
         color:white;
     }
+    div.reserve-wrap{
+        display:flex;
+        width:90%;
+        align-items: center;
+        position:absolute;
+        top:20%;
+        left:50%;
+        transform:translate(-50%, 0)
+    }
+    div.reserve-group{
+        flex-wrap:nowrap;
+        padding:20px 0;
+    }
+    div.reserve-group hr{
+        display:none;
+    }
+    button.reserve-bt{
+        width:20%;
+        padding:35px 0;
+        margin-top:0;
+    }
+    h2.event-title{
+        margin-top:15%;
+        margin-bottom:20px;
+        font-size:2em;
+    }
 }
