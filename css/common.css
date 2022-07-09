@@ -376,10 +376,11 @@ div.event-subtitle span.ski{
         display:flex;
         width:90%;
         align-items: center;
-        position:absolute;
-        top:20%;
+        /* position:absolute;
+        top:18%;
         left:50%;
-        transform:translate(-50%, 0)
+        transform:translate(-50%, -18%) */
+        transform:translate(0,-40%);
     }
     div.reserve-group{
         flex-wrap:nowrap;
@@ -397,5 +398,16 @@ div.event-subtitle span.ski{
         margin-top:15%;
         margin-bottom:20px;
         font-size:2em;
+    }
+    div.reserve-group>div{
+        padding:5px;
+    }
+    
+}
+
+@media screen and (min-width:1280px){
+    /* 이벤트 구역 */
+    div.event-box{
+        flex-direction:row;
     }
 }
