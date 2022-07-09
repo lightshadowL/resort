@@ -340,6 +340,11 @@ div.info-group ul li .icon-img{
     border-radius:50%;
     padding:15px;
 }
+div.info-text{
+    width:100%;
+    margin:100px auto;
+    text-align:center;
+}
 @media screen and (min-width:800px){
     div.mobile-group{
         display:none;
@@ -451,5 +456,20 @@ div.info-group ul li .icon-img{
     /* 이벤트 구역 */
     div.event-box{
         flex-direction:row;
+    }
+    
+    div.info-group ul{
+        flex-wrap: nowrap;
+        margin:20px 0;
+    }
+    div.info-group h3{
+        font-size:2.5em;
+    }
+    div.info-group ul li{
+        width:25%;
+        margin:10px 3%;
+    }
+    div.info-text{
+        font-size:1.2em;
     }
 }
