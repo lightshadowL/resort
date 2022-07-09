@@ -496,7 +496,17 @@ div.copyright{
     footer div.footer-info p:last-child{
         border-top:1px solid rgba(255,255,255,0.5);
     }
-    
+    /* 최종 수정 보완 */
+    div.event-box{
+        width:70%;
+    }
+    div.info-group{
+        padding:5%;
+    }
+    div.info-group ul li{
+        width:15%;
+        margin:10px 7%;
+    }
 }
 
 @media screen and (min-width:1280px){
