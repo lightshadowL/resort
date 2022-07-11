@@ -480,7 +480,7 @@ div.copyright{
         margin-top:0;
     }
     h2.event-title{
-        margin-top:15%;
+        margin-top:100px;
         margin-bottom:20px;
         font-size:2em;
     }
@@ -489,6 +489,8 @@ div.copyright{
     }
     footer div.footer-info{
         flex-direction: row;
+        max-width:1600px;
+        margin:auto;
     }
     footer div.footer-info p{
         width:50%;
@@ -496,12 +498,21 @@ div.copyright{
     footer div.footer-info p:last-child{
         border-top:1px solid rgba(255,255,255,0.5);
     }
+    address{
+        max-width:1600px;
+        margin:auto;
+    }
+    div.copyright{
+        max-width:1600px;
+        margin:auto;
+    }
     /* 최종 수정 보완 */
     div.event-box{
         width:70%;
     }
     div.info-group{
         padding:5%;
+        margin-top:150px;
     }
     div.info-group ul li{
         width:15%;
